@@ -1,0 +1,10 @@
+def reversString(any_string):
+    s = "string"
+    if any_string == "":
+        return any_string
+    else:
+        return reverseString(any_string[1:]) + any_string[:1]
+​
+​
+if __main__ == "__main__":
+    reverseString("code")
